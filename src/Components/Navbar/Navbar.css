@@ -1,0 +1,9 @@
+.navbar {
+  color: "white";
+  background-color: "#f1356d";
+  border-radius: "8px";
+}
+.navlink {
+  border: 1px solid white;
+  padding: 10px;
+}

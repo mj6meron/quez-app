@@ -1,0 +1,203 @@
+/* -----------   TextArea Css*/
+textarea {
+  font-family: arial;
+  text-align: center;
+  border: solid rgba(165, 235, 0, 0.23) 2px;
+  box-shadow: 0 0 20px 1px rgba(168, 232, 20, 0.2);
+  border-radius: 10px;
+  max-width: 60%;
+  max-height: 20px;
+  font-family: arial;
+  font-size: larger;
+  padding: 6px;
+  background-color: rgba(168, 232, 20, 0.01);
+  color: white;
+}
+
+.textin {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  border-radius: 12px;
+}
+/* Results quations css */
+
+.scoreBox {
+  padding: 2%;
+  height: fit-content;
+}
+.scoreText {
+  box-shadow: 0 0 3px 3px rgba(162, 199, 73, 0.2);
+  padding: 2%;
+  border-radius: 10px;
+  margin-bottom: 2%;
+}
+
+/*  ---------   Radio Css ------------------------*/
+.quationDiv {
+  height: fit-content;
+  padding: 2%;
+  border: solid rgba(168, 232, 20, 0.1) 2px;
+  box-shadow: 0 0 10px 1px rgba(255, 122, 122, 0.2);
+  border-radius: 7px;
+  background-color: rgba(0, 57, 18, 0.1);
+  margin-bottom: 5%;
+}
+.mainQuationDiv {
+  background-color: rgba(228, 172, 181, 0.1);
+  height: fit-content;
+  width: 100%;
+  padding: 2% 0;
+}
+.radioParentDiv,
+.checkboxParentDiv, textfieldParentDiv {
+  background-color: rgba(228, 172, 181, 0.1);
+  height: fit-content;
+  width: 100%;
+  padding: 5% 0;
+}
+
+.footer {
+  background-color: rgba(228, 172, 181, 0.1);
+  height: fit-content;
+  width: 100%;
+}
+.nextq {
+  color: rgb(252, 255, 190);
+  border: yellow 1px solid;
+  box-shadow: 0 0 10px 2px rgba(165, 235, 0, 0.2);
+  padding: 1%;
+  margin: 1% auto;
+}
+
+.nextq:hover {
+  box-shadow: 0 0 10px 2px rgba(165, 235, 0, 0.9);
+  background-color: white;
+  color: black;
+  transform: scale(1.1);
+}
+
+.quationlabel {
+  border: solid rgba(255, 255, 255, 0.1) 1px;
+  padding: 2%;
+  border-radius: 12px;
+  width: 70%;
+  margin: auto 1%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.quationlabel:hover {
+  box-shadow: 0 0 10px 2px rgba(255, 196, 0, 0.9);
+  color: black;
+  transform: scale(1.1);
+  font-weight: bold;
+}
+.a:hover {
+  background-color: rgba(234, 255, 46, 0.9);
+}
+.b:hover {
+  background-color: rgba(0, 255, 76, 0.9);
+}
+.c:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.title:hover {
+  color: yellowgreen;
+  transform: scale(1.05);
+}
+
+.myProfile {
+  float: right;
+  padding: 0.5%;
+  border-radius: 12 px;
+  background-color: white;
+}
+.myProfile:hover {
+  box-shadow: 0 0 10px 2px rgba(165, 235, 0, 0.9);
+  background-color: white;
+  color: black;
+  transform: scale(1.1);
+}
+a {
+  color: black;
+}
+
+.qBox {
+  padding: 5%;
+  width: 100%;
+  height: fit-content;
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+}
+.inputUserBox {
+  padding: 10%;
+  width: 100%;
+  height: fit-content;
+  border-radius: 15px;
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+}
+.inputfield {
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.inputDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 12px;
+}
+
+/* -------------  Global Tags in Quation CSS --------------------------*/
+hr {
+  width: 90%;
+}
+.start {
+  color: rgb(252, 255, 190);
+  border: yellow 2px solid;
+  box-shadow: 0 0 10px 2px rgba(165, 235, 0, 0.2);
+  padding: 2%;
+  margin: 1% auto;
+}
+
+.start:hover {
+  box-shadow: 0 0 10px 2px rgba(165, 235, 0, 0.9);
+  background-color: white;
+  color: black;
+  transform: scale(1.1);
+}
+
+/* -------------  Global Tags in Quation CSS --------------------------*/
+input {
+  border: 1px solid grey;
+  border-radius: 12px;
+  padding: 2%;
+  margin: 10px;
+  text-align: center;
+  color: Green;
+  font-weight: Bold;
+  font-size: large;
+}
+input:focus,
+textarea:focus {
+  outline: none !important;
+  border-color: #f7ff59;
+  box-shadow: 0 0 10px #f7ff59;
+  font-size: larger;
+}
+button {
+  background-color: rgba(118, 57, 57, 0.19);
+  font-size: large;
+  color: rgb(83, 83, 74);
+  font-weight: bold;
+  border: rgb(174, 174, 174) solid 2px;
+  border-radius: 5px;
+}
